@@ -5,11 +5,7 @@
     "version": "1.0.0",
     "description": "根据用户提供的公历出生年月日时，返回对应的生辰八字（四柱干支）。"
   },
-  "servers": [
-    {
-      "url": "https://get-bazi-vxlmcgupla.cn-hangzhou.fcapp.run"
-    }
-  ],
+,
   "paths": {
     "/": {
       "post": {
@@ -77,4 +73,5 @@
       }
     }
   }
+
 }
